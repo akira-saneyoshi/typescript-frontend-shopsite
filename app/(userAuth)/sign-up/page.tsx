@@ -20,7 +20,7 @@ const SignUpPage = () => {
 
     // 新規登録を行うAPIを実装
     try {
-      await apiClient.post("/ambassador/register", {
+      await apiClient.post("/auth/sign-up", {
         first_name,
         last_name,
         email,
